@@ -1,0 +1,24 @@
+/* css for header */
+
+
+.header {
+
+    width: auto;
+    margin: 10px 0px 0px 15px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 7vw;
+    align-items: center;
+}
+
+.header .sandwitch {
+    padding: 10px;
+
+}
+
+.header .sandwitch:active {
+    padding: 10px;
+    background-color: #717171;
+    border: hidden;
+    border-radius: 50%;
+}

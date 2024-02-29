@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    object-fit: cover;
+}
+
+
+.img2 {
+    position: relative;
+    left: -65px;
+}
+
+.logo {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

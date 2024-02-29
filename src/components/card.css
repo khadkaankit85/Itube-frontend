@@ -1,0 +1,63 @@
+.card {
+    width: 420px;
+    height: 340px;
+    /* border: 2px solid white; */
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.thumbnail {
+    width: 420px;
+    height: 235.66px;
+
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.thumbnail img {
+    border-radius: 7px;
+
+}
+
+
+.detail {
+    height: 104px;
+    color: white;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 40% 16% 16% 16%;
+    grid-template-areas: "channel-pfp title" "channel-pfp title " "channel-pfp channel-name"
+        "channel-pfp video-small-details";
+}
+
+.channel-pfp {
+    grid-area: channel-pfp;
+}
+
+.channel-pfp img {
+    border-radius: 50%;
+}
+
+.title {
+    grid-area: title;
+    overflow: hidden;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.channel-name {
+    font-size: 14px;
+    grid-area: channel-name;
+}
+
+.video-small-details {
+    grid-area: video-small-details;
+    font-size: 14px;
+}
