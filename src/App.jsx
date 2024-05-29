@@ -34,7 +34,7 @@ function App() {
 
       <Header />
       <div className="body">
-        fuck
+        
         <img src="kdfsjl/" alt="" />
       </div>
 
